@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kznGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="675" fill="url(#kznGrad)" />
+  
+  <!-- Grid Lines -->
+  <path d="M 0 135 H 1200 M 0 270 H 1200 M 0 405 H 1200 M 0 540 H 1200 M 200 0 V 675 M 400 0 V 675 M 600 0 V 675 M 800 0 V 675 M 1000 0 V 675" stroke="#374151" stroke-width="1" stroke-dasharray="4 8" opacity="0.4" />
+  
+  <!-- Dashboard UI Frame -->
+  <rect x="100" y="80" width="1000" height="515" rx="16" fill="#1f2937" stroke="#4f46e5" stroke-width="2" />
+  
+  <!-- Title bar -->
+  <rect x="100" y="80" width="1000" height="50" rx="16" fill="#111827" />
+  <circle cx="130" cy="105" r="7" fill="#ef4444" />
+  <circle cx="155" cy="105" r="7" fill="#f59e0b" />
+  <circle cx="180" cy="105" r="7" fill="#10b981" />
+  <text x="600" y="112" fill="#9ca3af" font-family="sans-serif" font-size="16" text-anchor="middle">KZN Tech Horizon 2026 — 2nd Place Winning Innovation System</text>
+  
+  <!-- Main content area -->
+  <!-- Left Sidebar -->
+  <rect x="120" y="150" width="220" height="425" rx="10" fill="#111827" />
+  <rect x="140" y="180" width="180" height="12" rx="4" fill="#6366f1" />
+  <rect x="140" y="210" width="140" height="10" rx="4" fill="#4b5563" />
+  <rect x="140" y="235" width="160" height="10" rx="4" fill="#4b5563" />
+  <rect x="140" y="260" width="120" height="10" rx="4" fill="#4b5563" />
+  
+  <!-- Central Chart & Visualizer -->
+  <rect x="360" y="150" width="460" height="260" rx="10" fill="#111827" stroke="#374151" stroke-width="1" />
+  <!-- Line Chart Path -->
+  <path d="M 380 350 Q 450 320, 520 250 T 660 210 T 800 180" fill="none" stroke="#a855f7" stroke-width="4" />
+  <path d="M 380 350 Q 450 320, 520 250 T 660 210 T 800 180 L 800 370 L 380 370 Z" fill="#a855f7" opacity="0.15" />
+  
+  <!-- Key Stats Cards -->
+  <rect x="840" y="150" width="240" height="120" rx="10" fill="#111827" stroke="#22c55e" stroke-width="1" />
+  <text x="860" y="185" fill="#86efac" font-family="sans-serif" font-size="14">System Speed</text>
+  <text x="860" y="230" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="32">99.8%</text>
+
+  <rect x="840" y="290" width="240" height="120" rx="10" fill="#111827" stroke="#eab308" stroke-width="1" />
+  <text x="860" y="325" fill="#fef08a" font-family="sans-serif" font-size="14">Tech Horizon Award</text>
+  <text x="860" y="370" fill="#eab308" font-family="sans-serif" font-weight="bold" font-size="28">2nd Place 🥈</text>
+
+  <!-- Bottom Terminal / Architecture Box -->
+  <rect x="360" y="430" width="720" height="145" rx="10" fill="#0f172a" />
+  <text x="380" y="465" fill="#38bdf8" font-family="monospace" font-size="14">&gt; ASP.NET Core Web API + C# Engine initialized</text>
+  <text x="380" y="495" fill="#4ade80" font-family="monospace" font-size="14">&gt; PostgreSQL / SQL Server database connection established (0.2ms latency)</text>
+  <text x="380" y="525" fill="#f472b6" font-family="monospace" font-size="14">&gt; React 19 Frontend mounted with custom Brand UI Design System</text>
+  
+  <!-- Trophy Badge -->
+  <g transform="translate(1000, 40)">
+    <circle cx="30" cy="30" r="40" fill="url(#goldGrad)" stroke="#ffffff" stroke-width="3" />
+    <text x="30" y="38" fill="#1e1b4b" font-family="sans-serif" font-weight="bold" font-size="24" text-anchor="middle">2nd</text>
+  </g>
+</svg>

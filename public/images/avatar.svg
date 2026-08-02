@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="20" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <rect width="800" height="800" fill="url(#bgGrad)" />
+  <circle cx="400" cy="400" r="320" fill="none" stroke="url(#accentGrad)" stroke-width="4" opacity="0.3" />
+  <circle cx="400" cy="400" r="260" fill="url(#accentGrad)" opacity="0.1" filter="url(#glow)" />
+  
+  <!-- Stylized Developer & Designer Portrait Silhouette -->
+  <g transform="translate(200, 150)">
+    <!-- Head/Silhouette -->
+    <circle cx="200" cy="180" r="110" fill="#e0e7ff" opacity="0.95" />
+    <path d="M 50 480 C 50 330, 350 330, 350 480 Z" fill="#e0e7ff" opacity="0.85" />
+    <!-- Glasses / Tech Aesthetic -->
+    <rect x="130" y="160" width="60" height="35" rx="8" fill="none" stroke="#4f46e5" stroke-width="6" />
+    <rect x="210" y="160" width="60" height="35" rx="8" fill="none" stroke="#4f46e5" stroke-width="6" />
+    <line x1="190" y1="175" x2="210" y2="175" stroke="#4f46e5" stroke-width="6" />
+  </g>
+  
+  <!-- Floating Code & Design Icons -->
+  <g opacity="0.8">
+    <!-- C# Badge -->
+    <rect x="80" y="120" width="120" height="50" rx="12" fill="#312e81" stroke="#6366f1" stroke-width="2" />
+    <text x="140" y="152" fill="#e0e7ff" font-family="sans-serif" font-weight="bold" font-size="20" text-anchor="middle">C# .NET</text>
+    
+    <!-- React Badge -->
+    <rect x="600" y="140" width="120" height="50" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+    <text x="660" y="172" fill="#38bdf8" font-family="sans-serif" font-weight="bold" font-size="20" text-anchor="middle">React</text>
+    
+    <!-- Design Palette Badge -->
+    <rect x="90" y="620" width="160" height="50" rx="12" fill="#831843" stroke="#f43f5e" stroke-width="2" />
+    <text x="170" y="652" fill="#fecdd3" font-family="sans-serif" font-weight="bold" font-size="18" text-anchor="middle">Brand Design</text>
+    
+    <!-- Award Badge -->
+    <rect x="540" y="600" width="180" height="50" rx="12" fill="#713f12" stroke="#eab308" stroke-width="2" />
+    <text x="630" y="632" fill="#fef08a" font-family="sans-serif" font-weight="bold" font-size="16" text-anchor="middle">🏆 KZN 2026 Winner</text>
+  </g>
+  
+  <text x="400" y="740" fill="#94a3b8" font-family="sans-serif" font-size="18" text-anchor="middle">Full-Stack Engineer &amp; Visual Brand Designer</text>
+</svg>

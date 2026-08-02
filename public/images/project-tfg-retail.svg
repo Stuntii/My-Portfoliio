@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <rect width="1200" height="675" fill="#18181b" />
+  <rect x="50" y="50" width="1100" height="575" rx="16" fill="#27272a" stroke="#e4e4e7" stroke-width="2" />
+  <rect x="50" y="50" width="1100" height="50" rx="16" fill="#09090b" />
+  <text x="600" y="82" fill="#e4e4e7" font-family="sans-serif" font-weight="bold" font-size="18" text-anchor="middle">TFG Retail &amp; Customer Experience Sales Associate Portal</text>
+
+  <!-- Sales Associate Dashboard Visual -->
+  <rect x="90" y="130" width="320" height="460" rx="12" fill="#18181b" stroke="#3f3f46" stroke-width="1" />
+  <text x="110" y="170" fill="#f43f5e" font-family="sans-serif" font-weight="bold" font-size="20">TFG Sales Metrics</text>
+  <rect x="110" y="195" width="280" height="80" rx="8" fill="#27272a" />
+  <text x="130" y="225" fill="#a1a1aa" font-family="sans-serif" font-size="12">Target Conversion Rate</text>
+  <text x="130" y="260" fill="#22c55e" font-family="sans-serif" font-weight="bold" font-size="26">142% (+24%)</text>
+
+  <rect x="440" y="130" width="670" height="460" rx="12" fill="#18181b" stroke="#3f3f46" stroke-width="1" />
+  <text x="470" y="170" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="20">Customer Journey &amp; Brand Preference Mapping</text>
+  <!-- Bar chart -->
+  <rect x="470" y="380" width="60" height="150" fill="#f43f5e" rx="6" />
+  <rect x="560" y="320" width="60" height="210" fill="#a855f7" rx="6" />
+  <rect x="650" y="260" width="60" height="270" fill="#6366f1" rx="6" />
+  <rect x="740" y="210" width="60" height="320" fill="#38bdf8" rx="6" />
+  <rect x="830" y="180" width="60" height="350" fill="#4ade80" rx="6" />
+  <rect x="920" y="150" width="60" height="380" fill="#facc15" rx="6" />
+</svg>

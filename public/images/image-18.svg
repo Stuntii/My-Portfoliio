@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg_18" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b" />
+      <stop offset="50%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+    <pattern id="grid_18" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#27272a" stroke-width="0.8" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg_18)" />
+  <rect width="1200" height="800" fill="url(#grid_18)" />
+  
+  <!-- Outer Frame -->
+  <rect x="30" y="30" width="1140" height="740" fill="none" stroke="#3f3f46" stroke-width="2" stroke-dasharray="10 5" opacity="0.6"/>
+  
+  <!-- Japanese Kana Aesthetic Accent -->
+  <text x="60" y="100" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="20" letter-spacing="4" font-weight="bold">EXHIBITION ITEM #18 / 20</text>
+  <text x="60" y="130" fill="#a1a1aa" font-family="sans-serif" font-size="14" letter-spacing="2">BLEACH &amp; MANGAART COLLECTION</text>
+  
+  <!-- Center Main Badge -->
+  <circle cx="600" cy="380" r="140" fill="#18181b" stroke="#f59e0b" stroke-width="3" opacity="0.9"/>
+  <text x="600" y="360" fill="#ffffff" font-family="'League Spartan', 'Syne', sans-serif" font-size="64" font-weight="900" text-anchor="middle">#18</text>
+  <text x="600" y="410" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="bold" text-anchor="middle" letter-spacing="3">MANGA ART</text>
+
+  <!-- Title & Path Info -->
+  <text x="600" y="580" fill="#ffffff" font-family="'Syne', sans-serif" font-size="32" font-weight="800" text-anchor="middle" letter-spacing="2">Bleach &amp; MangaArt #18</text>
+  <text x="600" y="620" fill="#a1a1aa" font-family="'JetBrains Mono', monospace" font-size="16" text-anchor="middle">Git Path: /public/images/image-18.jpg</text>
+  
+  <!-- Corner Accent Lines -->
+  <path d="M 50 720 L 200 720" stroke="#f59e0b" stroke-width="3"/>
+  <path d="M 1000 720 L 1150 720" stroke="#f59e0b" stroke-width="3"/>
+  <text x="1150" y="750" fill="#71717a" font-family="'JetBrains Mono', monospace" font-size="12" text-anchor="end">READY FOR GIT DROP</text>
+</svg>

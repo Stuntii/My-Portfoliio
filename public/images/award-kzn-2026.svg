@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="awardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#awardBg)" />
+  
+  <circle cx="600" cy="300" r="240" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="8 8" opacity="0.4" />
+  
+  <!-- Trophy Silhouette -->
+  <g transform="translate(500, 140)">
+    <path d="M 20 20 H 180 L 160 140 C 160 190, 40 190, 40 140 Z" fill="url(#gold)" />
+    <rect x="85" y="190" width="30" height="60" fill="url(#gold)" />
+    <rect x="50" y="250" width="100" height="30" rx="6" fill="#78350f" />
+  </g>
+
+  <text x="600" y="480" fill="#fef08a" font-family="sans-serif" font-weight="bold" font-size="36" text-anchor="middle">KZN TECH HORIZON 2026</text>
+  <text x="600" y="530" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="28" text-anchor="middle">2ND WINNER AWARD</text>
+  <text x="600" y="570" fill="#cbd5e1" font-family="sans-serif" font-size="18" text-anchor="middle">Recognized for Excellence in Software Architecture &amp; User Experience Design</text>
+</svg>
