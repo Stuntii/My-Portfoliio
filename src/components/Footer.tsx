@@ -23,23 +23,12 @@ export const Footer: React.FC<FooterProps> = ({ onOpenImageGuide }) => {
                 C# .NET × BRAND DESIGN
               </span>
               <span className="px-2 py-0.5 rounded-sm text-[9px] font-mono font-bold bg-amber-400/10 text-amber-400 border border-amber-400/20 uppercase tracking-widest">
-                KZN 2026 Winner 🏆
+                KZN 2026 Winners 🏆
               </span>
             </div>
             <p className="text-xs text-zinc-400 font-sans">
               Full-Stack Engineering (C#, ASP.NET, React, SQL) + Corporate Brand Design &amp; Digital Art
             </p>
-          </div>
-
-          {/* Center Helpers */}
-          <div className="flex flex-wrap items-center justify-center gap-4 text-xs font-mono">
-            <button
-              onClick={onOpenImageGuide}
-              className="px-3.5 py-2 rounded-sm bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white hover:bg-zinc-800 transition-colors flex items-center gap-1.5 uppercase tracking-wider text-[10px]"
-            >
-              <FolderSync className="w-3.5 h-3.5 text-zinc-400" />
-              <span>Image Replacement Guide</span>
-            </button>
           </div>
 
           {/* Back to Top */}

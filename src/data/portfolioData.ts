@@ -4,11 +4,11 @@ import { EXHIBITION_DEFAULT_ARTWORKS } from './exhibitionData';
 export const PERSONAL_INFO = {
   name: "Ndumiso Shoba",
   alias: "Frontend Designer & Full-Stack All-Rounder",
-  yearsExperience: "6+",
+  yearsExperience: "6+ in design",
   headline: "Frontend Designer & UI Specialist × Freelancer for Hire (Full-Stack All-Rounder)",
   tagline: "Lead Graphic Designer for BrokeBoy_RichMind. Crafting high-fidelity UI/UX, 2D anime animation keyframes, bespoke brand systems & interactive React interfaces — backed by full-stack C# / ASP.NET Core and database logic.",
   bio: "I am mainly a Frontend Designer & UI/UX Specialist available for freelance hire. As a complete all-rounder, I also build robust backend logic, C# ASP.NET Core APIs, relational databases (SQL Server & PostgreSQL), and Cisco networking infrastructure.",
-  email: "designer.dev.professional@example.com",
+  email: "stuntii209@gmail.com",
   location: "KwaZulu-Natal / Remote • Freelance Available",
   award: "KZN Tech Horizon 2026 — 2nd Winner 🏆",
   stats: [
