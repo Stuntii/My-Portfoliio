@@ -201,11 +201,11 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     iconName: "Code2",
     description: "Robust, scalable software engineering across backend systems and modern frontend frameworks.",
     skills: [
-      { name: "C# & .NET / ASP.NET Core", level: 95, experience: "6+ Years", highlight: true },
-      { name: "React & TypeScript", level: 92, experience: "5 Years", highlight: true },
-      { name: "HTML5 / CSS3 / JavaScript (ES6+)", level: 98, experience: "6+ Years", highlight: true },
-      { name: "RESTful Web APIs & Microservices", level: 90, experience: "5 Years" },
-      { name: "Tailwind CSS & Motion/Animations", level: 95, experience: "4 Years" }
+      { name: "C# & .NET / ASP.NET Core", level: 95, experience: "2+ Years", highlight: true },
+      { name: "React & TypeScript", level: 92, experience: "2 Years", highlight: true },
+      { name: "HTML5 / CSS3 / JavaScript (ES6+)", level: 98, experience: "2+ Years", highlight: true },
+      { name: "RESTful Web APIs & Microservices", level: 90, experience: "2 Years" },
+      { name: "Tailwind CSS & Motion/Animations", level: 95, experience: "2+ Years" }
     ]
   },
   {
@@ -216,8 +216,8 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       { name: "Brand Identity Systems", level: 95, experience: "6+ Years", highlight: true },
       { name: "Graphic Design & Print Media", level: 92, experience: "6+ Years", highlight: true },
       { name: "Digital Art & Illustration", level: 88, experience: "5 Years" },
-      { name: "UI/UX & Wireframing", level: 90, experience: "5 Years" },
-      { name: "Design System Guidelines", level: 94, experience: "5 Years" }
+      { name: "UI/UX & Wireframing", level: 90, experience: "2+ Years" },
+      { name: "Design System Guidelines", level: 94, experience: "6+ Years" }
     ]
   },
   {
@@ -225,10 +225,10 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     iconName: "Database",
     description: "Relational database schema architecture, SQL optimization, data security, and indexing.",
     skills: [
-      { name: "SQL (Microsoft SQL Server / PostgreSQL)", level: 94, experience: "6+ Years", highlight: true },
-      { name: "Database Design & ERD Modeling", level: 92, experience: "6+ Years" },
-      { name: "Query Performance Tuning & Indexing", level: 88, experience: "4 Years" },
-      { name: "ORM (Entity Framework Core)", level: 90, experience: "5 Years" }
+      { name: "SQL (Microsoft SQL Server / PostgreSQL)", level: 94, experience: "2+ Years", highlight: true },
+      { name: "Database Design & ERD Modeling", level: 92, experience: "2+ Years" },
+      { name: "Query Performance Tuning & Indexing", level: 88, experience: "2+ Years" },
+      { name: "ORM (Entity Framework Core)", level: 90, experience: "2+ Years" }
     ]
   },
   {
@@ -238,8 +238,8 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     skills: [
       { name: "Cisco Networking Certificates", level: 90, experience: "Verified", highlight: true },
       { name: "TFG Sales & Retail Acumen", level: 95, experience: "Work Industry" },
-      { name: "Application Architecture", level: 92, experience: "6+ Years" },
-      { name: "Git Version Control & Deployment", level: 90, experience: "6+ Years" }
+      { name: "Application Architecture", level: 92, experience: "2++ Years" },
+      { name: "Git Version Control & Deployment", level: 90, experience: "3+ Years" }
     ]
   }
 ];
@@ -248,11 +248,11 @@ export const EXPERIENCE_TIMELINE: ExperienceItem[] = [
   {
     id: "kzn-award-2026",
     period: "2026",
-    role: "2nd Place Winner — Innovator",
+    role: "2nd Place Winners (2man-Herd) — Innovator",
     company: "KZN Tech Horizon 2026 Summit",
     location: "KwaZulu-Natal, South Africa",
     type: "award",
-    description: "Awarded 2nd Winner at the prestigious regional tech summit for designing and engineering a full-stack high-performance cloud solution with custom brand identity.",
+    description: "Awarded 2nd Winners at the prestigious regional tech summit for designing and engineering a full-stack high-performance cloud solution with custom brand identity.",
     keyAchivements: [
       "Demonstrated excellence in C# ASP.NET backend performance and React frontend design.",
       "Praised by industry judges for cohesive brand aesthetics and database optimization."
