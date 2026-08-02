@@ -132,7 +132,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal, onOpenImageGuide 
               >
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-sm bg-amber-400 text-black text-[10px] font-mono font-bold uppercase tracking-widest shadow-sm">
                   <Award className="w-3.5 h-3.5 text-black" />
-                  <span>KZN TECH HORIZON 2026 — 2ND PLACE WINNERS</span>
+                  <span>Digital/Physical art + Web Developer</span>
                 </div>
                 <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-sm bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 text-[10px] font-mono font-bold uppercase tracking-widest">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
