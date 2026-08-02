@@ -132,7 +132,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal, onOpenImageGuide 
               >
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-sm bg-amber-400 text-black text-[10px] font-mono font-bold uppercase tracking-widest shadow-sm">
                   <Award className="w-3.5 h-3.5 text-black" />
-                  <span>KZN TECH HORIZON 2026 — 2ND PLACE WINNER</span>
+                  <span>KZN TECH HORIZON 2026 — 2ND PLACE WINNERS</span>
                 </div>
                 <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-sm bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 text-[10px] font-mono font-bold uppercase tracking-widest">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
@@ -201,13 +201,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal, onOpenImageGuide 
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
 
-              <button
-                onClick={onOpenResumeModal}
-                className="px-6 py-3 rounded-sm bg-zinc-900 text-zinc-200 border border-zinc-800 font-mono text-xs uppercase font-bold tracking-wider hover:bg-zinc-800 hover:text-white transition-all flex items-center gap-2"
-              >
-                <Download className="w-4 h-4 text-zinc-400" />
-                <span>Credentials CV</span>
-              </button>
             </motion.div>
 
             {/* Quick Stats Grid */}
@@ -269,7 +262,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal, onOpenImageGuide 
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1.5 text-amber-400 font-mono text-[9px] uppercase tracking-widest font-bold">
                         <Quote className="w-3 h-3 text-amber-400" />
-                        <span>CREATIVE STATEMENT</span>
+                        <span>lytg</span>
                       </div>
                       <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
                     </div>
@@ -333,12 +326,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal, onOpenImageGuide 
               <div className="pt-4 border-t border-zinc-800 flex items-center justify-between text-[10px] text-zinc-500 font-mono">
                 <span>[ CISCO CERTIFIED ]</span>
                 <span>[ TFG ASSOCIATE ]</span>
-                <button
-                  onClick={onOpenImageGuide}
-                  className="text-zinc-300 hover:text-white uppercase tracking-wider underline"
-                >
-                  Assets Guide →
-                </button>
               </div>
 
             </div>
@@ -367,13 +354,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal, onOpenImageGuide 
               >
                 <X className="w-5 h-5" />
               </button>
-
-              <div className="flex items-center gap-2 mb-4">
-                <ImageIcon className="w-5 h-5 text-amber-400" />
-                <h3 className="text-sm font-mono font-bold uppercase tracking-wider text-white">
-                  UPLOAD CUSTOM PROFILE IMAGE
-                </h3>
-              </div>
 
               <p className="text-xs text-zinc-400 mb-6 font-sans">
                 Upload your custom image for the hero profile card. The brand announcement filter (<span className="text-amber-400 font-mono">70% Brightness / 1.1 Contrast</span>) will automatically be applied.

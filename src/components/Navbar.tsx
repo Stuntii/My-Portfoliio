@@ -83,15 +83,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenImageGuide }) => {
               </a>
             ))}
 
-            {/* Local Image Directory Helper Button */}
-            <button
-              onClick={onOpenImageGuide}
-              className="px-2.5 py-1 rounded-sm text-[10px] font-mono font-bold uppercase tracking-wider bg-zinc-900 border border-zinc-700/80 text-zinc-300 hover:text-white hover:border-zinc-500 transition-all flex items-center gap-1.5"
-              title="Open local image directory mapping & replacement guide"
-            >
-              <FolderSync className="w-3.5 h-3.5 text-zinc-400" />
-              <span>[ Image Assets ]</span>
-            </button>
 
             {/* Theme Toggle Button */}
             <button
